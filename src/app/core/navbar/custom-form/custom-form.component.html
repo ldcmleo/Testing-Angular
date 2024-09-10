@@ -1,0 +1,10 @@
+<div class="container">
+    <label for="name">Name:</label>
+    <input class="form-control" type="text" id="name" placeholder="Write a name" [(ngModel)]="name">
+    
+    <label for="email">Email:</label>
+    <input class="form-control" type="text" id="email" placeholder="Write an email" [(ngModel)]="email">
+
+    <button class="btn btn-primary" (click)="logValue()">Aceptar</button>
+    <p>U write: {{ name }} and {{ email }}</p>
+</div>
